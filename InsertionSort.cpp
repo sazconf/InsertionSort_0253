@@ -32,6 +32,21 @@ void input()
 }
 
 
-void insertionSort(){
-    
+void insertionSort(){//Prosedure insertaition sort
+    int temp ; //Membuat variable data temporer atau penyimpanan sementara
+    int i, j; //Membuat variable j sebagai penanda
+
+    for ( i=1; i<=n-1;i++){//step 1
+        temp =arr[i]; //step 2
+
+        j= i-1; //step 3 
+
+        while (j>= 0 && arr[j] > temp) // step4
+        {
+            arr[j+1] = arr[j] ; //step 4a
+            j--; // step 4b
+        }
+        arr [j+1] = temp; //step 5
+
+    }
 }
