@@ -67,4 +67,10 @@ void display (){
 
 }
 
-
+int main(){
+    input();
+    insertaitionSort();
+    display();
+    system(("Pause"));
+    return 0;
+}
