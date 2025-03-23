@@ -50,3 +50,21 @@ void insertionSort(){//Prosedure insertaition sort
 
     }
 }
+
+void display (){
+    cout<<endl; // output baris kosong
+    cout << "======================="<<endl;
+    cout << "Total Pass = " << n-1<<endl;//count element movement
+    cout << "======================="<<endl;
+    cout << "Element Array yang telah tersusun"<<endl;//output kelayar
+    cout << "======================="<<endl;
+
+    for (int j=0;j<n;j++){// Looping dengan j dimulai dari 0 hingga n-1
+        cout << arr [j] <<endl; // output kelayar
+
+    }
+    cout << endl; // output baris kosong
+
+}
+
+
