@@ -31,3 +31,7 @@ void input()
     }
 }
 
+
+void insertionSort(){
+    
+}
